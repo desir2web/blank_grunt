@@ -11,7 +11,7 @@ module.exports = {
         }
     },
     css: {
-        files: 'css/*.css'
+        files: 'build/css/*.css'
     },
     html: {
         files: '*.html'
@@ -22,9 +22,5 @@ module.exports = {
     mustache: {
         files: ['templates/**', 'json/*.json'],
         tasks: ['mustache_render']
-    },
-    plugins: {
-        files: 'bower_components/**',
-        tasks: ['uglify']
     }
 };

@@ -3,6 +3,6 @@ module.exports = {
         options: {
             browsers: ['Android 2', 'ie 8', 'ie 9']
         },
-        src: 'css/main.css'
+        src: 'build/css/main.css'
     }
 };

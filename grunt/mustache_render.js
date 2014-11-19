@@ -8,7 +8,7 @@ module.exports = {
         files: [{
             data: "json/data.json",
             template: "templates/index.html",
-            dest: "index.html"
+            dest: "build/index.html"
         }]
     }
 };

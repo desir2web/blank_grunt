@@ -1,8 +1,8 @@
 {
-    "name": "grunt-frontend-boilerplate",
-    "version": "0.1.1",
+    "name": "blank_grunt",
+    "version": "0.1.0",
     "authors": [
-        "fatuk <fatukk@gmail.com>"
+        "desir2web <desir.web@gmail.com>"
     ],
     "license": "MIT",
     "private": true,
@@ -14,8 +14,6 @@
         "tests"
     ],
     "dependencies": {
-        "jquery": "1.11.1",
-        "normalize-less": "*",
-        "3l": "~1.4.4"
+        "jquery": "1.11.1"
     }
 }
