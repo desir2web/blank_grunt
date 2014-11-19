@@ -22,5 +22,9 @@ module.exports = {
     mustache: {
         files: ['templates/**', 'json/*.json'],
         tasks: ['mustache_render']
+    },
+    imagemin: {
+        files: ['build/img/**'],
+        tasks: ['imagemin']
     }
 };
