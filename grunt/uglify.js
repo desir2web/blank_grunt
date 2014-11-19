@@ -4,7 +4,7 @@ module.exports = {
             sourceMap: true
         },
         files: {
-            'vendors/plugins.min.js': [
+            'build/js/plugins.min.js': [
                 'bower_components/jquery/dist/jquery.js'
             ]
         }
