@@ -12,6 +12,14 @@
 <body>
     
     {{>hello}}
+    
+    <ol>
+        {{#menu}}
+        <li>
+            <a href="{{item}}">{{item}}</a>
+        </li>
+        {{/menu}}
+    </ol>
 
     <script src="js/plugins.min.js"></script>
     <script src="js/main.js"></script>
